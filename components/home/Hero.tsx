@@ -1,4 +1,3 @@
-
 "use client";
 
 import Image from "next/image";
@@ -36,7 +35,7 @@ export default function Hero() {
             {/* Greeting & Main Name */}
             <Reveal delay={0.1}>
               <p className="mt-4 text-xs font-extrabold uppercase tracking-widest text-slate-950 dark:text-accent">
-                Hello, I'm
+                Hello, I&apos;m
               </p>
 
               <h1 className="mt-2 text-5xl font-black tracking-tight text-slate-950 dark:text-white md:text-7xl">
@@ -90,12 +89,11 @@ export default function Hero() {
                 <Magnetic>
                   <a
                     href="/resume.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    download="Nishit-Soni-Resume.pdf"
                     className="inline-flex items-center gap-2 rounded-full border border-border bg-card/70 px-6 py-3.5 text-sm font-bold text-slate-950 backdrop-blur-xl transition-all duration-300 hover:border-accent hover:text-accent active:scale-95 dark:text-white"
                   >
+                    <Download size={18} />
                     <span>Download Resume</span>
-                    <Download size={16} />
                   </a>
                 </Magnetic>
 
@@ -108,10 +106,6 @@ export default function Hero() {
             <Reveal delay={0.2} className="relative w-full max-w-md">
 
               <div className="relative mx-auto flex size-72 items-center justify-center md:size-88">
-
-                {/* ==========================================
-                    GEOMETRIC & ORBITAL ANIMATIONS
-                    ========================================== */}
 
                 {/* Outer Dashed Orbit Ring */}
                 <div
@@ -157,10 +151,7 @@ export default function Hero() {
                   className="absolute inset-0 animate-pulse rounded-full bg-gradient-to-tr from-purple-600/40 via-pink-500/30 to-indigo-600/40 blur-2xl"
                 />
 
-                {/* ==========================================
-                    PROFILE IMAGE & GLASS BACKPLATE
-                    ========================================== */}
-
+                {/* Profile Image & Glass Backplate */}
                 <div className="relative size-full overflow-hidden rounded-full border-2 border-slate-950/20 bg-background/80 p-1.5 shadow-2xl backdrop-blur-md dark:border-white/20">
 
                   <div className="relative size-full overflow-hidden rounded-full border border-border">
