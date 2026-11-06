@@ -15,7 +15,7 @@ const credentials: Credential[] = [
   // Hackathons and competitions
   {
     title: "Hack Genesis '25 — International Finalist",
-    file: "CERTIFICATE OF Finalist in International level Hackthon Hack Gensis'25.png",
+    file: "CERTIFICATE of Finalist in International level Hackthon Hack Gensis'25.png",
     type: "image",
     category: "Hackathons",
   },
