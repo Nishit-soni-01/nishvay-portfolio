@@ -206,12 +206,6 @@ const credentials: Credential[] = [
     category: "Certifications",
   },
   {
-    title: "Practice Rust — CodeChef",
-    file: "nishit_2004-Practice Rust.pdf",
-    type: "pdf",
-    category: "Certifications",
-  },
-  {
     title: "Practice Go",
     file: "nishit_2004-Practice Go.pdf",
     type: "pdf",
